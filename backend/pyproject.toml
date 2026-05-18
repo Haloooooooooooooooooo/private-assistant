@@ -1,0 +1,14 @@
+[project]
+name = "private-assistant-backend"
+version = "0.1.0"
+description = "FastAPI backend for the personal knowledge internalization assistant."
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.135.0",
+  "httpx>=0.28.0",
+  "uvicorn[standard]>=0.38.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

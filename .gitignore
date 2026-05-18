@@ -23,6 +23,7 @@ pnpm-debug.log*
 
 # Node
 node_modules/
+.next/
 dist/
 build/
 
